@@ -58,7 +58,7 @@ namespace DALEK.Shell
             AssemblyCatalog assCatalog = new AssemblyCatalog(Assembly.GetExecutingAssembly(), conventions);
             AggregateCatalog catalog = new AggregateCatalog(dirCatalog, assCatalog);
 
-            _container = new CompositionContainer(catalog, true);
+            _container = new CompositionContainer(catalog, true); // Enable Thread Safe 
             _container.SatisfyImportsOnce(this);
 
             Enumerable.Range(1, 1).AsParallel().ForAll(p => 
