@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALEK.Core", "DALEK.Core\DALEK.Core.csproj", "{5C8AA53E-F428-421E-B81D-64B8677A1B42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transactions", "Transactions", "{9D47E399-246B-477C-9370-1AEBDD0CDD60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8C3C53AB-53F9-40E2-9D15-9041ABC39032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Txn.Lotto", "Txn.Lotto\Txn.Lotto.csproj", "{6FD8889E-DE10-4F21-9B00-F85FE10584F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALEK.Shell", "DALEK.Shell\DALEK.Shell.csproj", "{ACE2A10C-3CB1-4CBF-B650-10128E32A4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Txn.Keno", "Txn.Keno\Txn.Keno.csproj", "{5D4DE645-6A87-4B97-A618-642FA2B4C18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Txn.Customer", "Txn.Customer\Txn.Customer.csproj", "{E237AAA1-7E3F-4372-A683-1CB71DCEB201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C8AA53E-F428-421E-B81D-64B8677A1B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8AA53E-F428-421E-B81D-64B8677A1B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8AA53E-F428-421E-B81D-64B8677A1B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8AA53E-F428-421E-B81D-64B8677A1B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD8889E-DE10-4F21-9B00-F85FE10584F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD8889E-DE10-4F21-9B00-F85FE10584F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD8889E-DE10-4F21-9B00-F85FE10584F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD8889E-DE10-4F21-9B00-F85FE10584F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE2A10C-3CB1-4CBF-B650-10128E32A4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE2A10C-3CB1-4CBF-B650-10128E32A4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE2A10C-3CB1-4CBF-B650-10128E32A4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE2A10C-3CB1-4CBF-B650-10128E32A4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4DE645-6A87-4B97-A618-642FA2B4C18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4DE645-6A87-4B97-A618-642FA2B4C18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4DE645-6A87-4B97-A618-642FA2B4C18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4DE645-6A87-4B97-A618-642FA2B4C18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E237AAA1-7E3F-4372-A683-1CB71DCEB201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E237AAA1-7E3F-4372-A683-1CB71DCEB201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E237AAA1-7E3F-4372-A683-1CB71DCEB201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E237AAA1-7E3F-4372-A683-1CB71DCEB201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FD8889E-DE10-4F21-9B00-F85FE10584F7} = {9D47E399-246B-477C-9370-1AEBDD0CDD60}
+		{5D4DE645-6A87-4B97-A618-642FA2B4C18B} = {9D47E399-246B-477C-9370-1AEBDD0CDD60}
+		{E237AAA1-7E3F-4372-A683-1CB71DCEB201} = {9D47E399-246B-477C-9370-1AEBDD0CDD60}
+		{5C8AA53E-F428-421E-B81D-64B8677A1B42} = {8C3C53AB-53F9-40E2-9D15-9041ABC39032}
+		{ACE2A10C-3CB1-4CBF-B650-10128E32A4CC} = {8C3C53AB-53F9-40E2-9D15-9041ABC39032}
+	EndGlobalSection
+EndGlobal
